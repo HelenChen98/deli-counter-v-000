@@ -13,5 +13,7 @@ def line(katz_deli)
     end
     puts array.join
   end
-  
 end
+
+def take_a_number()
+  
