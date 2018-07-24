@@ -11,7 +11,7 @@ def line(katz_deli)
       num -= 1
       index += 1
     end
-    return array.join
+    puts array.join
   end
   
 end
