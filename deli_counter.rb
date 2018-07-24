@@ -4,10 +4,10 @@ def line(katz_deli)
   else
     num = katz_deli.size
     array = []
-    array << "The line is currently: "
+    array << "The line is currently:"
     index = 1
     while num > 0
-      array << "#{index}. #{katz_deli[index-1]} " 
+      array << " #{index}. #{katz_deli[index-1]}" 
       num -= 1
       index += 1
     end
